@@ -1,0 +1,332 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Camera Plain Variable", sans-serif;
+
+
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+
+#Arrow{
+    color: rgb(172, 70, 255);
+    font-size: 2rem;
+    animation: jump 1.5s infinite;
+    position: absolute;
+    top: 85%;  
+    left: 50%;
+
+
+}
+
+@keyframes jump{
+    0%,100%{
+        transform: translateY(-50px);
+    }
+    50%{
+        
+        transform: translateY(90px);
+    }
+
+}
+
+#Header-Container {
+    background: url('A blurry background with a mixture of deep purple and light green, with slowly moving particles flying in the background, ethereal, dreamy, soft focus, glowing particles, subtle motion blur, abstract, seamless loop.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 950px;
+    width: 100%;
+    color: white; 
+}
+
+#Header-Body-Title{
+   
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 550px;
+    height: 190px;
+    font-size: 100px;
+}
+
+#Nexus{
+    background : linear-gradient(to right, rgb(237, 109, 173),rgb(202, 123, 241),rgb(160, 170, 254),rgb(122, 237, 240));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#GetStarted-Btn{
+    background : linear-gradient(to right,rgb(255, 103, 180), rgb(186, 132, 245));
+    color: black;
+    border-radius: 20px;
+}
+
+#Header {
+    padding: 1rem 2rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-right: 200px;
+}
+
+
+#Header ul {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+
+#Header ul li {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+button {
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+#Header-Body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 60px); 
+    padding: 2rem;
+    text-align: center;
+}
+
+#Header-Body > div {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+#Header-Body-Button-Container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#Header-Body-Button1{
+    background : linear-gradient(to right,rgb(255, 103, 180), rgb(186, 132, 245));
+    color: black;
+    border-radius: 15px;
+    width: 300px;
+}
+
+
+#Header-Body-Button1:hover{
+    background : linear-gradient(to right,rgb(199, 103, 255), rgb(132, 241, 245));
+    color: black;
+    border-radius: 15px;
+    width: 300px;
+  
+}
+
+#Header-Body-Button2{
+   
+    color: black;
+    border-radius: 15px;
+}
+
+#Header-Body-Button2:hover{
+   
+    background : linear-gradient(to right,rgb(255, 103, 180), rgb(186, 132, 245));
+    color: black;
+    border-radius: 15px;
+    
+}
+
+#GetStarted-Btn:hover{
+    background : linear-gradient(to right,rgb(199, 103, 255), rgb(132, 241, 245));
+    color: black;
+    border-radius: 15px;
+    
+  
+}
+
+#Body-Container{}
+
+#Body-Header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#Body-Body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   
+    
+}
+
+#Body-Body-Item{
+   
+    width: 400px;
+    height: 200px;
+}
+
+#Body-Title{
+    background : linear-gradient(to right, rgb(237, 109, 173),rgb(202, 123, 241),rgb(160, 170, 254),rgb(122, 237, 240));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Body-SubText{
+    width: 700px;
+    height: 20px;
+    color: rgb(183, 175, 182);
+   
+}
+
+#Body-Body2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   
+    
+}
+
+#Body-Body-Item2{
+   
+    width: 400px;
+    height: 200px;
+}
+
+#Mid-Body{
+    background: url('A blurry background with a mixture of deep purple and light green, with slowly moving particles flying in the background, ethereal, dreamy, soft focus, glowing particles, subtle motion blur, abstract, seamless loop.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+#Body-Body-Item{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(to right, #171218,rgb(42, 37, 43) );
+    opacity: 0.9;
+    border-radius: 15px;
+    height: 300px;
+}
+
+#Body-Body-Item:hover{
+ transform:scale(1.05);
+    transition: 0.5s;
+ box-shadow: #46ddf8 0px 0px 50px;
+}
+
+
+
+#Body-Body-Item2:hover{
+ transform:scale(1.05);
+    transition: 0.5s;
+    
+ box-shadow: #47fff0 0px 0px 50px;
+}
+
+.Body-Body-Item1:hover h2{
+    transition: 1s;
+ color: rgb(70, 255, 240);
+}
+
+#Body-Body-Item2{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(to right, #171218,rgb(42, 37, 43) );
+    opacity: 0.9;
+     border-radius: 15px;
+    height: 300px;
+    
+}
+
+#Icon1{
+    font-size: 30px; 
+    background : linear-gradient(to right, pink, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Icon2{
+    font-size: 30px; 
+    background:linear-gradient(to right,purple,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Icon3{
+    font-size: 30px; 
+       background:linear-gradient(to right,purple,rgb(17, 247, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Icon4{
+    font-size: 30px; 
+      background:linear-gradient(to right,rgb(8, 255, 222),rgb(35, 109, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Icon5{
+    font-size: 30px; 
+      background:linear-gradient(to right,rgb(95, 255, 247),rgb(255, 38, 237));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Icon6{
+    font-size: 30px; 
+       background:linear-gradient(to right,rgb(255, 20, 255),rgb(212, 46, 253));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
