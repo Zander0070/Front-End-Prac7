@@ -38,7 +38,7 @@ ul {
 }
 
 #Header-Container {
-    background: url('A blurry background with a mixture of deep purple and light green, with slowly moving particles flying in the background, ethereal, dreamy, soft focus, glowing particles, subtle motion blur, abstract, seamless loop.gif');
+    background: url(BackGround.gif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -233,8 +233,7 @@ p {
 }
 
 #Mid-Body{
-    background: url('A blurry background with a mixture of deep purple and light green, with slowly moving particles flying in the background, ethereal, dreamy, soft focus, glowing particles, subtle motion blur, abstract, seamless loop.gif');
-    background-size: cover;
+    background: url(BackGround.gif);background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
