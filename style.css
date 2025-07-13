@@ -207,6 +207,7 @@ p {
     background : linear-gradient(to right, rgb(237, 109, 173),rgb(202, 123, 241),rgb(160, 170, 254),rgb(122, 237, 240));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 #Body-SubText{
@@ -222,6 +223,7 @@ p {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    padding-bottom: 80px;
    
     
 }
@@ -233,9 +235,7 @@ p {
 }
 
 #Mid-Body{
-    background: url(BackGround.gif);background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(to right, rgb(214, 78, 255),rgb(114, 57, 109));
 }
 
 
@@ -251,6 +251,7 @@ p {
     background: linear-gradient(to right, #171218,rgb(42, 37, 43) );
     opacity: 0.9;
     border-radius: 15px;
+    transition: transform 1.5s ease, box-shadow 1.5s ease;
     height: 300px;
 }
 
@@ -285,7 +286,7 @@ p {
     opacity: 0.9;
      border-radius: 15px;
     height: 300px;
-    
+    transition: transform 1.5s ease, box-shadow 1.5s ease;
 }
 
 #Icon1{
@@ -328,4 +329,139 @@ p {
        background:linear-gradient(to right,rgb(255, 20, 255),rgb(212, 46, 253));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#Mid-Body-Main-Container{
+    background :linear-gradient(to right, rgb(72, 250, 250),rgb(57, 112, 114));
+    background-size: cover;
+}
+
+#Feature-Container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+   
+    
+    
+}
+
+#Feature-Container-Header{
+    padding-top: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Feature-Title{
+   font-size: 70px; 
+    background : linear-gradient(to right, rgb(252, 102, 180),rgb(252, 102, 180),rgb(102, 252, 252),rgb(122, 237, 240));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Feature-SubText{
+    
+    width: 700px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    
+}
+
+#Feature-Blogs {
+    width: 80%; /* or a fixed value like 1000px */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+   
+    background : linear-gradient(to right, rgb(95, 49, 104),rgb(57, 112, 114));
+    opacity: 0.9;
+    border-radius: 30px;
+    border: none;
+    transition: transform 1.5s ease, box-shadow 1.5s ease;
+}
+
+#Feature-Blogs:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: #df41ff 0px 0px 250px;
+}
+
+
+#Feature-Blogs-Item{
+    
+}
+
+#Feature-Blogs-Item-Title{
+
+    width: 500px;
+    justify-content: center;
+    background-color: rgb(106, 53, 83);
+    border-radius: 15px;
+   
+
+}
+
+.Feature-Blogs-Item1 h1{
+    color: rgb(253, 253, 253);
+}
+
+
+.Feature-Blogs-Item1:hover h1{
+    transition: 2s;
+    background:linear-gradient(to right,rgb(255, 20, 255),rgb(212, 46, 253));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#Feature-Blogs-Button1{
+    background : linear-gradient(to right,rgb(255, 103, 180), rgb(186, 132, 245));
+    color: black;
+    border-radius: 15px;
+    width: 300px;
+}
+
+#Feature-Blogs-Button1:hover{
+    background : linear-gradient(to right,rgb(199, 103, 255), rgb(132, 241, 245));
+    color: black;
+    border-radius: 15px;
+    width: 300px;
+  
+}
+
+#Feature-Blogs-Button2{
+    background : linear-gradient(to right,rgb(204, 195, 200));
+    color: black;
+    border-radius: 15px;
+    width: 150px;
+}
+
+#Feature-Blogs-Button2:hover{
+    background : linear-gradient(to right,rgb(255, 103, 180), rgb(186, 132, 245));
+    color: black;
+    border-radius: 15px;
+    width: 150px;
+    
+}
+
+#Feature-Blogs-Image-Item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    border-radius: 20px;
 }
